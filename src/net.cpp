@@ -1848,7 +1848,7 @@ void StartNode(boost::thread_group& threadGroup)
         pnodeLocalHost = new CNode(INVALID_SOCKET, CAddress(CService("127.0.0.1", 0), nLocalServices));
 
     Discover();
-
+//  function from ~net.cpp 1783.....
     //
     // Start threads
     //
